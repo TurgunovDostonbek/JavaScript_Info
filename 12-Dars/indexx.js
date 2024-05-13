@@ -31,18 +31,18 @@ const user = [
 
 // const sortByAlf = () => {
 //     const res = user.sort((a,b) => a.name.localeCompare(b.name))
-//     user = res;
-//     console.log(user);
+//     user == res;
+//     // console.log(user);
 // }
 
-// const sortByYear = () => {
-//     const res = user.sort((a,b) => b.year - a.year)
-//     user == res;
-//     console.log(user);
-// }
+// // const sortByYear = () => {
+// //     const res = user.sort((a,b) => b.year - a.year)
+// //     user == res;
+// //     console.log(user);
+// // }
 
 // sortByAlf();
-// sortByYear();
+// // sortByYear();
 // console.log(user);
 
 
@@ -59,16 +59,16 @@ const user = [
 
 // Delete  ...... 
 
-// const deleteByfilter = (id) => {
-//     const res = user.filter((item) => {
-//     return item.id !== id})
-    
-//      user == res
-// };
-
-// deleteByfilter(5);
-
+const deleteByfilter = (id) => {
+    const res = user.filter((item) => item.id !== id)
+    // console.log(res);
+    user == res;
+    console.log(user);
+};
 // console.log(user);
+deleteByfilter(6);
+
+
 
 ///////////////////////
 
