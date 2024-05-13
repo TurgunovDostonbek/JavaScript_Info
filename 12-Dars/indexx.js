@@ -10,20 +10,20 @@ const user = [
     {id:7, year: 2006, name:"Yusupov Ayyubxon" },
     {id:8, year: 2007, name:"Abdulboriev Qobiljon" },
     // {id:9, year: 2008, name:"Abdulajanov Azizbek" }
-]
+];
 
 /// CRUD
 
 // Create .......
 
-const addUser = (item) => {
-// console.log(item);
- user == [  ...user, {id: user.length + 1,  ...item }];
- console.log(item);
-};
+// const addUser = (item) => {
+// // console.log(item);
+//  user == [  ...user, {id: user.length + 1,  ...item }];
+//  console.log(item);
+// };
 
-addUser({year:2019, name: "webbrain"})
-console.log(user);
+// addUser({year:2019, name: "webbrain"})
+// console.log(user);
 
 
 
@@ -31,22 +31,30 @@ console.log(user);
 
 // const sortByAlf = () => {
 //     const res = user.sort((a,b) => a.name.localeCompare(b.name))
-//     user == res;
+//     user = res;
+//     console.log(user);
 // }
 
 // const sortByYear = () => {
-//     const res = user.sort((a,b) => a.year - b.year)
+//     const res = user.sort((a,b) => b.year - a.year)
 //     user == res;
+//     console.log(user);
 // }
 
 // sortByAlf();
 // sortByYear();
-
+// console.log(user);
 
 
 // Update  ...... 
 
+// const updateUser = (data) => {
+// let res = user.map((value) => value.id == data.id ? {...value, [data.type]: data.value} : value )
+// user == res;
+// console.log(res);
+// }
 
+// updateUser({id:2, type: "year", value: "gulbashakar"})
 
 
 // Delete  ...... 
