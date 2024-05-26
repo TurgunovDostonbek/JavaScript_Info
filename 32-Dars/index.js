@@ -1,4 +1,4 @@
-// Text Content and innerHTML, setAttribute, hasAttribute and setAttribute..
+// Text Content and innerHTML, setAttribute, setAttribute  and hasAttribute..
 
 // Text Content.... => text content tallab olingan elementni textini ozgartirib beradi yoki ochiradi yoki yangilaydi yoki qoshadi..
 
