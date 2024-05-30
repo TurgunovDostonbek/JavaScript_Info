@@ -1,0 +1,9 @@
+.succes{
+    color: rgb(243, 243, 248);
+    background-color: black;
+}
+
+.error{
+    color: aqua;
+    background-color: black;
+}
