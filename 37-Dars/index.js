@@ -42,37 +42,34 @@
 //     }
 // });
 
-
-
 // HTTP Request JSON Data ...
 
-
 const getTodos = (resurs) => {
-    return new Promise((resolve,reject) => {
-        const request = new XMLHttpRequest()
-        request.addEventListener("readystatechange", () => {
-            // console.log(request);
-            if(request.readyState === 4  && request.status === 200){
-                const data = JSON.parse(request.responseText)
-                resolve(data);
-            }else if(request.readyState === 4){
-                reject("Qandaydir hatolik yuz berdi  !!!!!");
-            }
-        })
-        // open
-        request.open("GET", resurs)
-        // send
-        request.send()
-    })  
-}
+  return new Promise((resolve, reject) => {
+    const request = new XMLHttpRequest();
+    request.addEventListener("readystatechange", () => {
+      // console.log(request);
+      if (request.readyState === 4 && request.status === 200) {
+        const data = JSON.parse(request.responseText);
+        resolve(data);
+      } else if (request.readyState === 4) {
+        reject("Qandaydir hatolik yuz berdi  !!!!!");
+      }
+    });
+    // open
+    request.open("GET", resurs);
+    // send
+    request.send();
+  });
+};
 
-
-getTodos('./todos.json')
-.then((data) => {
+getTodos("./todos.json")
+  .then((data) => {
     console.log(data);
-}).catch((err) => {
+  })
+  .catch((err) => {
     console.log(err);
-})
+  });
 
 // getTodos((data,err) => {
 //     if(err){
@@ -82,9 +79,7 @@ getTodos('./todos.json')
 //     }
 // })
 
-
 // Promise
-
 
 // const getData = () => {
 //     return new Promise((resolve, reject) => {
