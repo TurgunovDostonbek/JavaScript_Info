@@ -104,3 +104,4 @@ product.map((item, index) => {
 localStorage.setItem("list", JSON.stringify(product));
 
 console.log(product);
+let loctad = "SAlom";
