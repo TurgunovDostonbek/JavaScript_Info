@@ -105,3 +105,7 @@ localStorage.setItem("list", JSON.stringify(product));
 
 console.log(product);
 let loctad = "SAlom";
+const name = "Eshmat";
+const name1 = "Eshmat";
+const name2 = "Eshmat";
+const name3 = "Eshmat";
