@@ -97,6 +97,7 @@ console.log(user.name); // Vali (Ishlaydi!)
 ### Shadowing (Nomlarning to'silishi)
 Agar ichki blokda tashqi blokdagi bilan bir xil nomli o'zgaruvchi e'lon qilinsa, ichki o'zgaruvchi tashqisini "to'sib qo'yadi" (shadow).
 
+
 ```javascript
 let count = 20;
 
