@@ -1,3 +1,5 @@
+// Veraybls and Data type.
+
 // let a = '   34 v3n bd nsdsnfvsd   '
 // console.log(a.split(' ').join('').trim());
 
@@ -10,8 +12,6 @@
 //     // console.log(c);
 //     // console.log(b[i]);
 // }
-
-
 
 // console.log(s.join('.'));
 
@@ -28,39 +28,41 @@
 // let b = repeat(5)
 // console.log(b);
 
-let str = 'salom'
+let str = "salom";
 console.log(typeof str);
 
-let num = 1234235
+let num = 1234235;
 console.log(typeof num);
 
-let bigIn = 13234532512315n
+let bigIn = 13234532512315n;
 console.log(typeof bigIn);
 
-let bool = true
+let bool = true;
 console.log(typeof bool);
 
-let undf 
+let undf;
 console.log(typeof undf);
 
-let nul = null
+let nul = null;
 console.log(typeof nul);
 
-let syb = Symbol('salom')
+let syb = Symbol("salom");
 console.log(typeof syb);
 
 // ===============
 
 let obj = {
-    name: "Dostonbek",
-    age: 26
-}
+  name: "Dostonbek",
+  age: 26,
+};
 console.log(typeof obj);
 
-let arry = [1,2,3,4,5,4,'salom']
+let arry = [1, 2, 3, 4, 5, 4, "salom"];
 console.log(typeof arry);
 
 let func = () => {
-    console.log(func());
-}
+  console.log(func());
+};
 // console.log(func());
+
+console.log(false || (false && true) || false);
